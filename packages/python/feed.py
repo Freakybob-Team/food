@@ -1,9 +1,10 @@
 import urllib.request
 import os
-print("Feed; a Food updater. Now updating food...")
+print("Feed; a Food updater. Now downloading/updating food...")
 urllib.request.urlretrieve(
     "https://food.freakybob.site/src/food.py", "food.py"
 )
-print("Downloaded Food! Thanks for using Feed.")
-print("Removing Feed...")
-os.remove("feed.py")
+urllib.request.urlretrieve(
+    "https://food.freakybob.site/src/eat.py", "eat.py"
+)
+print("Downloaded Food and Eat! Thanks for using Feed.")
