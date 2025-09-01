@@ -1,5 +1,8 @@
 {
-    "packages": [
+    "pypackages": [
         "greg", "feed"
+    ],
+    "txt": [
+        "greg"
     ]
 }
