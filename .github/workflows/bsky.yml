@@ -1,0 +1,14 @@
+name: Send Bluesky Post
+
+on:
+    [push]
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: myConsciousness/bluesky-post@v5
+        with:
+          text: "There was a new commit to Food. Check it out on https://github.com/Freakybob-Team/food or https://tangled.org/@freakybob.site/food!"
+          identifier: ${{ secrets.BLUESKY_IDENTIFIER }}
+          password: ${{ secrets.BLUESKY_PASSWORD }}
