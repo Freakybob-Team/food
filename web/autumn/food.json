@@ -1,6 +1,6 @@
 {
     "pypackages": [
-        "greg", "feed"
+        "greg", "feed", "updiscord"
     ],
     "txt": [
         "greg"
