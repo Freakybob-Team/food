@@ -1,8 +1,5 @@
 {
     "pypackages": [
         "greg", "feed", "updiscord"
-    ],
-    "txt": [
-        "greg"
     ]
 }
