@@ -1,5 +1,5 @@
 # food
-a package manager in Python for a variety of files
+a package manager in Python for Python files (.py, older versions support txt)
 # why food?
 food is easy to use and widely available cause of Python!
 
